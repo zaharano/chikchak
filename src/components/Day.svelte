@@ -1,5 +1,5 @@
 <script>
-	import FullCalendar, { Draggable } from 'svelte-fullcalendar';
+	import FullCalendar from 'svelte-fullcalendar';
 	import timeGridPlugin from '@fullcalendar/timegrid';
 	import interactionPlugin from '@fullcalendar/interaction';
 
@@ -14,7 +14,8 @@
 		headerToolbar: false,
 		dayHeaders: false,
 		editable: true,
-		height: 'auto'
+		height: 'auto',
+		eventColor: 'rgba(95, 191, 249, 1)'
 	};
 </script>
 
